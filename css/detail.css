@@ -1,0 +1,150 @@
+
+  /*bố cục*/
+  .gia{
+    display: flex;
+  }
+  .div1{
+    width: 33.33%;
+    padding: 10px;
+  }
+.div1{
+  width: 500px;
+}
+.subImg1{
+  width: 474px;
+  height: 500px;
+  image-rendering: pixelated;
+}
+.subImg2{
+  width: 115.6px;;
+  height: 120px;
+  padding:3px
+
+}
+.child{
+  margin-left: 60px;
+}
+.child1{
+  margin-left: 110px;
+    font-weight: bold;
+    margin-top: -5px;
+    font-size: 28px;
+}
+.child2{
+  font-size: 18px;
+  margin-left: 150px;
+  margin-top: -25px;
+}
+.child3{
+  line-height: 1.8;
+  letter-spacing: -0.05px;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 80px;
+}
+.miễn{
+  background-color: pink;
+  line-height: 2.2;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  padding: 7px;
+    margin-left: 100px;
+}
+.m2{
+  margin-left: 183px;
+}
+.m3{
+  margin-left: 145px;
+}
+.child4{
+  MARGIN-RIGHT: 300px;
+    line-height: 2;
+}
+.child8{
+  background-color: #00a99d;
+  padding: 10px 10px 10px 25px;
+    margin-right: 300px;
+    color: white;
+}
+.child9{
+  margin-top: 55px;
+    line-height: 1.8;
+    letter-spacing: -0.05px;
+}
+.child91{
+  text-decoration: underline; 
+}
+.child92 a{
+  color: #d0a3a8;
+}
+.child12{
+  padding-left: 150px;
+  font-weight: 400;
+}
+.child13{
+  padding-left: 95px;
+  font-weight: 400;
+}
+.child14{
+  padding-left: 93px;
+  font-weight: 400;
+}
+
+.child15{
+  padding-left: 190px;
+  font-weight: 400;
+}
+.child16{
+  padding-left: 50px;
+  font-weight: 400;
+}
+.child17{
+  padding-left: 250px;
+  font-weight: 400;
+}
+.child18{
+  padding-left: 250px;
+  font-weight: 400;
+}
+.child11 p:first-child{
+  font-weight: bolder;
+}
+/*phần có thể bạn chưa biết*/
+.child20{
+    display: flex;
+  }
+  .child22 {
+    width: 25%;
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+.child21{
+  text-align: center;
+  line-height: 1.57;
+  letter-spacing: 2.8px;
+  font-weight: bolder;
+  font-size: 28px;
+}
+.child20::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.child22 img{
+  width: 100%;
+  height: auto;
+}
+.vé p:first-child{
+  font-weight: bold;
+}
+.vé p:last-child{
+  color: pink;
+}
+.vé{
+  margin-left: 130px;
+}
+/**/
