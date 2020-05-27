@@ -1,0 +1,294 @@
+.s1{
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.57;
+  font-size: 32px;
+  color: black;
+}
+.s2{
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.57;
+  font-size: 32px;
+  color: black;
+}
+/**/  
+
+/*chia ra 2 bảng*/
+.column {
+  float:left;
+  padding: 0px;
+  width: 100px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  
+}
+/**/
+.giảm{
+  float: left;
+  width: 250px;
+  padding: 10px;
+  position: relative;
+  top: 100px;
+}
+.giảm1{
+    position: absolute;
+    top: 140px;
+    left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: white;
+    word-spacing: 8px;
+}
+.giảm img{
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  image-rendering: pixelated;
+}
+.aa{
+  color: pink;
+}
+HR{
+  color:red;
+}
+/*xổ xuống*/
+.dropbtn {
+
+  color: black;
+
+  font-size: 16px;
+  border:black;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/**/
+/*xếp hình*/
+.giá{
+  display: flex;
+  flex-wrap: wrap;
+}
+.box{
+  width: 33%;
+  text-align: center;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ánh{
+  width: 100%;
+  height: auto;
+}
+/*sacle hình*/
+.giá .box:hover img{
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); 
+ /* Safari prior 9.0 */
+  transform: scale(2); /* Standard syntax */
+transition: 3s;
+}
+
+.box-conten{
+  overflow: hidden;
+  width: auto;
+}
+/**/
+.giá::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
+}
+.giá{
+  padding-top: 50px;
+    width: 1080px;
+    margin-left: -10px;
+}
+.về{
+  line-height: 0px;
+    padding-top: 25px;
+}
+/*hiện add to cart vào hình*/
+.box-conten{
+  position: relative;
+}
+.add{
+  position: absolute;
+  bottom: 1000px;
+  left:35%;
+  display: none;
+}
+.box:hover .add{
+  display: block;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  animation-name: example;
+  animation-duration: 1s;
+}
+.box-conten img{
+  width: 335.01px;
+}
+.về p:first-child{
+  font-weight: bold;
+}
+.về p:last-child{
+  color: black;
+}
+.về-1{
+  background:black;
+}
+.về-2{
+  font-weight: bold;
+}
+@-webkit-keyframes example{
+  from{
+    bottom:0;
+  }
+  to{
+    bottom:15px;
+  }
+}
+@keyframes example{
+  from{
+    bottom:0;
+  }
+  to{
+    bottom:15px;
+  }
+}
+/* hết hiện add to cart vào hình*/
+.box-conten{
+  position: relative;
+}
+.add{
+  position: absolute;
+  bottom: 15px;
+  left:35%;
+  display: none;
+}
+.box:hover .add{
+  display: block;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 1s;
+  animation-name: example;
+  animation-duration: 1s;
+}
+@-webkit-keyframes example{
+  from{
+    bottom:0;
+  }
+  to{
+    bottom:15px;
+  }
+}
+@keyframes example{
+  from{
+    bottom:0;
+  }
+  to{
+    bottom:15px;
+  }
+}
+/**/
+.ok-1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;
+}
+.ok-2 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 32px;  
+}
+.secok p:last-child{
+  color: gray; 
+}
+.secok-1 p:last-child{
+  color: gray; 
+}
+.secok{
+  margin: 30px 60px 0 650px;
+}
+.secok-1{
+  margin: 20px 20px 0 20px;
+}
+.chưa-1::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.pagination {
+  float: none;
+  margin-right: 20px;
+}
+.xa{
+  float: left;
+}
+.xa-1{
+  float:left;
+}
+.xa::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+.carousel-inner > .item > img {
+  margin: 0 auto;
+}
+body{
+  background-color:black;
+}
+/**/
